@@ -26,6 +26,4 @@ const gallerytArr = images.map(({url, alt}) =>
   <img src="${url}" alt="${alt}" width="500"/>
   </li>`).join('')
 
-
 gallery.insertAdjacentHTML("beforeend", gallerytArr)
-console.log(gallery.children)
